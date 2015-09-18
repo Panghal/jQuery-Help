@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html class="wf-roboto-n7-active wf-roboto-i5-active wf-roboto-i3-active wf-roboto-n4-active wf-roboto-n3-active wf-roboto-i4-active wf-roboto-n5-active wf-active">
+<head>
+<body>
+<header>
+<form id="formLogin" method="post" autocomplete="off" action="/" novalidate="novalidate">
+<input id="hdnBrowser" type="hidden" name="hdnBrowser" value="Firefox">
+<input id="hdnOs" type="hidden" name="hdnOs" value="Windows">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-4 col-md-offset-4">
+<h1 class="text-center login-title" style="visibility: hidden"> Sign in to EduTru</h1>
+<div class="account-wall">
+<img class="profile-img" src="/Images/Icon_E_Blue.png">
+<div class="loginDiv">
+<input id="hdnBrowser" type="hidden" name="hdnBrowser">
+<input id="hdnOs" type="hidden" name="hdnOs">
+<div class="form-group">
+<div class="form-group">
+<button id="btnlogin" class="btn btn-md btn-primary btn-block ecmsbtn" onclick="javascript:return AdminLogin();" type="submit"> Login</button>
+<input id="remember" type="checkbox" style="cursor: pointer;margin-top: 11px " checked="checked" name="remember">
+<label style="font-weight: normal;cursor: pointer" for="remember"> Stay signed in</label>
+<a class="pull-right need-help" onclick="javascript:return showForgetPasswordDiv();" href="javascript:void(0);"> Forget Password? </a>
+<span class="clearfix"></span>
+<div id="message">
+</div>
+<div class="forgetPwdDiv">
+</div>
+</div>
+</div>
+</div>
+<div class="blockOverlay">
+</form>
+<div>
+</body>
+</html>
