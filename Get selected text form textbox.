@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,10 +8,9 @@ function getSelText()
     var txt = '';
      if (window.getSelection)
     {
-        txt = window.getSelection();
+      var  txt = window.getSelection();
     }
 
-    else return;
 alert(txt);
 }
 </script>
