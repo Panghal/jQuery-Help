@@ -5,20 +5,19 @@
 <script language=javascript>
 function getSelText()
 {
-    var txt = '';
      if (window.getSelection)
     {
-      var  txt = window.getSelection();
+      var txt = window.getSelection();
     }
-
-alert(txt);
+   $("#selectedtext").val(txt);
 }
 </script>
 
-<input type="button" value="Get selection" onmousedown="getSelText()"> 
-
+</body>
 <form name=aform >
-<textarea name="selectedtext" rows="5" cols="20"></textarea>
+<textarea id="selectedtext" rows="5" cols="20"></textarea>
+</br>
+<input type="button" value="Get" onmousedown="getSelText()"> 
 </form>
 </body>
 </html>
